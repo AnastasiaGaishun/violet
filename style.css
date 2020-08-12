@@ -1,0 +1,187 @@
+.html, body {
+	position: relative;
+	width: 375px;
+	height: 759px;
+	margin: 0 auto;
+	left: 0%;
+}
+
+.wrapper {
+	position: absolute;
+	left: 0%;
+	right: 0%;
+	top: 6.53%;
+	bottom: 0%;
+	background: #B678FF;
+	border-radius: 10px 10px 0 0;
+}
+
+.header {
+	position: relative;
+}
+
+.line {
+	position: absolute;
+	left: 45.07%;
+	right: 45.07%;
+	top: 7.14%;
+	bottom: 92.24%;
+	mix-blend-mode: normal;
+}
+
+.title {
+	position: absolute;
+	width: 130px;
+	height: 41px;
+	left: 60px;
+	top: 32px;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 30px;
+	line-height: 41px;
+	letter-spacing: 0.01em;
+	color: #FFFFFF;
+}
+
+.tasks {
+	position: absolute;
+	width: 53px;
+	height: 20px;
+	left: 60px;
+	top: 76px;
+	font-family: Arial;
+	font-size: 16px;
+	line-height: 19px;
+	letter-spacing: -0.02em;
+	color: #FFFFFF;
+	mix-blend-mode: normal;
+	opacity: 0.5;
+}
+
+.basket {
+	position: absolute;
+	width: 20px;
+	height: 22px;
+	left: 306.91px;
+	top: 42px;
+}
+
+.edit {
+	position: absolute;
+	left: 341px;
+	top: 42px;
+}
+
+.task-list {
+	position: absolute;
+	position: relative;
+	top: 131px;
+	left: 0;
+}
+
+.task-point {
+	position: absolute;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+
+.circle {
+	position: absolute;
+	left: 18px;
+	top: 10px;
+}
+
+.task-title {
+	position: absolute;
+	left: 60px;
+	top: 2px;
+	font-family: Arial;
+	font-size: 18px;
+	line-height: 21px;
+	letter-spacing: -0.02em;
+	color: #FFFFFF;
+}
+
+
+.calendar {
+	position: absolute;
+	left: 62px;
+	top: 28px;
+	bottom: 19px;
+}
+
+.day {
+	position: absolute;
+	width: 39px;
+	height: 17px;
+	top: 28px;
+	left: 80px;
+	bottom: 19px;
+	font-family: Arial;
+	font-size: 14px;
+	line-height: 16px;
+	/* identical to box height */
+	letter-spacing: -0.337647px;
+	color: #FFFFFF;
+	mix-blend-mode: normal;
+	opacity: 0.5;
+}
+
+.clock {
+	position: absolute;
+	width: 12px;
+	height: 12px;
+	left: 133px;
+	top: 28px;
+	bottom: 19px;
+}
+
+.time {
+	position: absolute;
+	width: 54px;
+	height: 17px;
+	top: 28px;
+	left: 151px;
+	bottom: 19px;
+	font-family: Arial;
+	font-size: 14px;
+	line-height: 16px;
+	/* identical to box height */
+	letter-spacing: -0.337647px;
+	color: #FFFFFF;
+	mix-blend-mode: normal;
+	opacity: 0.5;
+}
+
+.task-line {
+	position: absolute;
+	height: 1px;
+	left: 60px;
+	right: 0px;
+	top: 62px;
+	background: #FFFFFF;
+	mix-blend-mode: normal;
+	opacity: 0.2;
+}
+
+.pluse-button {
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+}
+
+.bag-button {
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+}
+
+.bottom-line {
+	position: absolute;
+	left: 32%;
+	right: 32%;
+	bottom: 5px;
+}
+
+/*@media (min-width: 990px) {@content}*/
